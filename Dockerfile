@@ -1,6 +1,2 @@
-# Imagen base con Nginx
-FROM nginx:alpine
-
+FROM nginx:1.24-alpine
 COPY . /usr/share/nginx/html
-EXPOSE 80
-
